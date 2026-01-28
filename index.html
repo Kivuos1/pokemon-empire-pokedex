@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="topbar">
+        <div class="topbar-row">
+            <h1>Pokedex</h1>
+
+            <div class="navlinks">
+                <a class="navlink" href="./abilities.html">Abilities</a>
+                <a class="navlink" href="./moves.html">Moves</a>
+            </div>
+        </div>
+
+        <input id="search" type="search" placeholder="Search by name or #" />
+        <div class="filters">
+            <div id="filters"></div>
+            <button id="clearFilters" class="chip chip-clear" type="button">Clear</button>
+        </div>
+    </header>
+
+
+    <main>
+      <div id="status" class="status">Loading…</div>
+      <section id="grid" class="grid" aria-live="polite"></section>
+    </main>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

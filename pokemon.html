@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="back" href="./index.html">← Back</a>
+      <h1 id="title">Loading…</h1>
+    </header>
+
+    <main class="detail">
+      <div id="status" class="status">Loading…</div>
+
+      <section id="hero" class="hero" hidden>
+        <div class="hero-left">
+          <img id="sprite" class="sprite" alt="" />
+          <div class="sprite-controls">
+            <label class="check">
+              <input id="shinyToggle" type="checkbox" />
+              Shiny
+            </label>
+
+            <label class="select">
+              Form
+              <select id="formSelect" disabled>
+                <option value="default">Default</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="meta">
+            <div id="dex" class="dexBig"></div>
+            <div id="types" class="types"></div>
+          </div>
+
+          <section class="panel">
+            <h2>Base Stats</h2>
+            <div id="stats" class="stats"></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="panel" id="abilitiesPanel" hidden>
+        <h2>Abilities</h2>
+        <div id="abilities"></div>
+      </section>
+
+      <section class="panel" id="movesPanel" hidden>
+        <h2>Level-up Moves</h2>
+        <div id="moves"></div>
+      </section>
+
+      <section class="panel" id="eggMovesPanel" hidden>
+        <h2>Egg Moves</h2>
+        <div id="eggMoves"></div>
+        </section>
+
+
+      <section class="panel" id="tmPanel" hidden>
+        <h2>TM Moves</h2>
+        <div id="tms"></div>
+      </section>
+
+      <section class="panel" id="evoPanel" hidden>
+        <h2>Evolutions</h2>
+        <div id="evolutions" class="evo"></div>
+      </section>
+
+    </main>
+
+    <script type="module" src="./src/pokemon.js"></script>
+  </body>
+</html>

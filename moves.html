@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Moves</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <a class="back" href="./index.html">← Back</a>
+      <h1>Moves</h1>
+      <input
+        id="moveSearch"
+        type="search"
+        placeholder="Search moves…"
+        autocomplete="off"
+      />
+      <div class="filters" style="margin-top:10px;">
+        <select id="typeFilter" class="select">
+            <option value="">All Types</option>
+        </select>
+
+        <select id="catFilter" class="select">
+            <option value="">All Categories</option>
+            <option value="Physical">Physical</option>
+            <option value="Special">Special</option>
+            <option value="Status">Status</option>
+        </select>
+
+        <button id="clearMoveFilters" class="chip chip-clear" type="button">Clear</button>
+        </div>
+
+    </header>
+
+    <main class="detail">
+      <div class="layout2">
+        <!-- LEFT -->
+        <section class="panel">
+          <h2>All Moves</h2>
+          <div id="moveList" class="list"></div>
+        </section>
+
+        <!-- RIGHT -->
+        <section class="panel">
+          <h2 id="moveTitle">Select a move</h2>
+          <div id="moveMeta" class="muted"></div>
+          <div style="height:8px;"></div>
+          <div id="moveDesc" class="muted"></div>
+
+          <div style="height:16px;"></div>
+
+          <h3 id="moveMonsTitle" style="margin:0 0 10px;font-size:14px;">
+            Pokémon that learn this move
+          </h3>
+          <div id="moveMons" class="grid"></div>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="./src/moves.js"></script>
+  </body>
+</html>

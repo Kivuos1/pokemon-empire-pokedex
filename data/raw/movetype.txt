@@ -1,0 +1,69 @@
+
+### Biting Moves ###  (For Strong Jaw, Slime Body)
+# Clamp, Crunch, Dragon's Maw, Fire Fang, Frostbite, Gear Grind, Gnashing Teeth, Hyper Fang, Ice Fang, #
+# Lockjaw, Mandible Munch, Snakebite, Super Fang, Sweet Tooth, Thunder Fang, Vise Grip, Wisdom Teeth #
+
+### Punching Moves: ### (For Iron Fist, Slime Body)
+# Comet Punch, Crabhammer, Darkest Lariat, Dizzy Punch, Drain Punch, Dynamic Punch, Fire Punch, Focus Punch, #
+# Ground'n Pound, Hammer Arm, Hydra Hammer, Ice Hammer, Ice Punch, Justice Hammer, Mach Punch, Meteor Mash, #
+# Poison Jab, Power-Up Punch, Rocket Fist, Shadow Box, Sky Uppercut, Sucker Punch, Thunder Punch, Unseen Fist #
+
+### Kicking Moves: ### (For Slime Body)
+# Break Dance, Curb Stomp, Double Kick, High Jump Kick, Heel Hook, Low Kick, Rolling Kick, Sizzle Kick, Trop Kick #
+
+### Powder Moves ### (For Sandstorm, Symbiotic, Grass-types, Shield Dust, etc.)
+# Black Mold, Cotton Guard, Cotton Spore, Diamond Dust, Dust Devil, Fungal Spores, Hartshorn, Pheromone Blur, Pixie Dust, Poison Powder, #
+# Powder Keg, Powder Snow, Puff Magic, Quicksand, Salt Cure, Sand Attack, Sand Tomb, Sandstorm, Sleep Powder, Spectral Glitter, Stun Spore, Thaumaturgy #
+
+### Sound-Based Moves ### (For Soundproof, Amplifier, Throat Chop, etc.)
+# Bell Ringer, Boomburst, Bug Buzz, Circadian Rhythm, Disarming Voice, Dishearten, Doppler Effect, Drum Solo, Echoed Voice, Echoplasm, Fowl Language, #
+# Gaping Yawn, Growl, Hymn of Faith, Insult to Injury, Lucky Chant, Lullaby, Majestic Roar, Metal Sound, Outcry, Perish Song, Power Chord, Psywave, Requiem, #
+# Rime Spitter, Roar, Screech, Smack Talk, Snarl, Sonar Pulse, Sonic Boom, Soulblaze Scales, Sparkling Aria, Symphonic Clash, Wailing Walls, Weeping Abscess #
+
+### Ball and Bomb Moves ### (For Grenadier, Bulletproof)
+# Aura Sphere, Beak Blast, Bombardment, Bullet Seed, Buzzer Beater, Chromatic Orb, Cluster Mines, Dive Bomb, Dreepy Rocket, Egg Bomb, #
+# Energy Ball, Epic Snowball, Explosion, Focus Blast, Gyro Ball, Memento Mortar, Mind Blown, Mud Bomb, Octazooka, Rock Blast, Scattershot, #
+# Searing Shot, Seed Bomb, Self-Destruct, Silver Bullet, Sludge Bomb, Snipe Shot, Spike Cannon, Storm Grenade, Thought Bomb, Torpedo, Weather Ball #
+
+### Pulse and Beam Moves ### (For Mega Launcher, Bulletproof)
+# Aura Sphere, Aura Wheel, Aurora Beam, Blastin' Bastion, Charge Beam, Core Enforcer, Dreepy Rocket, Eerie Impulse, E.M.P., Feral Fervor, Fleur Cannon, #
+# Force Palm, Glass Cannon, Heal Pulse, Hyper Beam, Ice Beam, Inner Darkness, Integration Ray, Ki Burst, Light Artillery, Luster Purge, Mirror Shot, #
+# Moongeist Beam, Paroxysm, Prismatic Laser, Relic Burst, Seed Flare, Signal Beam, Solarbeam, Sonar Pulse, Techno Blast, Tri Attack, Zap Cannon #
+
+### Wind Moves ### (For Hail, Gale Force) 
+# Aeroblast, Air Strike, Cold Front, Dust Devil, Fairy Wind, Fallout, Gale of Ruin, Giant Wingbeat, Gust, Heat Wave, Hurricane, Jetstream, #
+# Leaf Storm, Ominous Wind, Polar Vortex, Razor Wind, Silver Wind, Stratosphere, Tailwind, Turbulence, Twister, Whirlwind, Winds of Change, Zephyr #
+
+### Breath Moves ### (For Deep Breath)
+# Alabaster Flare, Bubblebeam, Defile, Dragon Breath, Flamethrower, Focus Energy, Frost Breath, #
+# Incinerate, Meditate, Miasma, Phoenix Flower, Strange Steam, Power Vacuum, Zephyr # 
+
+### Unchecked Accuracy/Mystical Moves ### (For Mystical)
+# Aerial Ace, Aura Sphere, Banal Affair, Facade, Fairy Wind, Hyperspace Hole, Metronome, Mystical Fire #
+# Puzzle Box, Quantum Leap, Shadow Box, Shock Wave, Smart Strike, Subterfuge, Thaumaturgy #
+
+### Momentum Moves ### (For Pendulum, other Momentum moves)
+# Bide, Counter, Defense Curl, Echoed Voice, Epic Snowball, Hot Streak, Metal Burst, Mirror Coat, Rolling Stone, Rolling Thunder, Whiplash, Writhing Rend #
+
+### Edgy Moves ### (For Razor's Edge)
+# Cutting Edge, Double Edge, Hedge Clippers, Imperial Spear, Karate Chop, Meat Hooks, Mental Edge, Metal Claw, Nightfall,  
+# Raptor Ripper, Razor Shell, Saber Strike, Shadow Sneak, Slash, Solar Blade, Smart Strike, Sweep Slice, X-Scissor #
+
+### Phazard (Pseudo-Hazard) Moves ### (For Harmonious, Eye of the Storm, Bag of Tricks)
+# Ancestral Aspect, Blastin' Bastion, Centrifuge, Cluster Mines, Composting, Cotton Spore, Creeping Doubt, Embers, Egg Bomb, Ice Shard, Integration Ray, #
+# Meteorology, Nature's Call, Oil Slick, Pay Day, Rippling Ichor, Rogue Element, Royal Jelly, Sky Scraper, Shutter Flutter, Soft Serve, #
+# Soulblaze Scales, Spectral Glitter, Stake Driver, Star Power, Superconductor, Tail End, Trailblazer, Tunnel Network, Vine Snare, Zone Control #
+
+### Screen Moves ### (For Mirror Shot, Brick Break, Light Clay, etc.)
+# Aurora Veil, Electric Fence, Embargo, Heal Block, Magic Coat, Pressure Plate, Quick Guard, Repulsor, Safeguard, Special Snowflake, Wide Guard #
+
+### Side-Wide Moves ### (For Rototiller, Heavy Clay, etc.)
+# Afterglow, Dead Air, Extrasensory, Industrial Grade, Jetstream, Jubilation, Lucky Chant, # 
+# Mud Bath, Ominous Wind, Phantom Pain, Pyrrhic Victory, Witching Hour, Sweet Tooth #
+
+### Trapezohedron Moves ###
+# Aqua Ring, Asphyxiate, Black Mold, Data Mine, Exsanguinate, Guard Duty, Hellfire, Parasite, Rejuvenate #
+
+### Debuff-Only Moves ### (For Hive Mind, Twisted Terrain, Artificer, etc.)
+# Captivate, Charm, Eerie Impulse, Fake Tears, Flash/Powder Snow/Sand Attack/Smokescreen/Splash, Growl, #
+# Insult to Injury, Leer, Metal Sound, Ruffled Feathers, Scare Tactics, Screech, Tail Whip, Tragedy #

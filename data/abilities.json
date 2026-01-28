@@ -1,0 +1,1568 @@
+{
+  "STENCH": {
+    "id": 1,
+    "key": "STENCH",
+    "name": "Stench",
+    "desc": "Deals x1.5 damage in Smog."
+  },
+  "DRIZZLE": {
+    "id": 2,
+    "key": "DRIZZLE",
+    "name": "Drizzle",
+    "desc": "Summons Rain for five turns on entry."
+  },
+  "SPEEDBOOST": {
+    "id": 3,
+    "key": "SPEEDBOOST",
+    "name": "Speed Boost",
+    "desc": "Slightly raises Speed each turn."
+  },
+  "PLATEARMOR": {
+    "id": 4,
+    "key": "PLATEARMOR",
+    "name": "Plate Armor",
+    "desc": "When below half HP, take x0.5 dmg but can't heal."
+  },
+  "STURDY": {
+    "id": 5,
+    "key": "STURDY",
+    "name": "Sturdy",
+    "desc": "Endures with 1 HP if damaged at or above 2/3 Max HP."
+  },
+  "INNARDSOUT": {
+    "id": 6,
+    "key": "INNARDSOUT",
+    "name": "Innards Out",
+    "desc": "When KO'd, returns equal damage to the attacker."
+  },
+  "LIMBER": {
+    "id": 7,
+    "key": "LIMBER",
+    "name": "Limber",
+    "desc": "Prevents paralysis and Speed/Evasion reduction."
+  },
+  "NIRVANA": {
+    "id": 8,
+    "key": "NIRVANA",
+    "name": "Nirvana",
+    "desc": "Base Atk and Sp. Atk stats are increased x1.5 in battle."
+  },
+  "STATIC": {
+    "id": 9,
+    "key": "STATIC",
+    "name": "Static",
+    "desc": "30% chance ANY contact paralyzes the opponent."
+  },
+  "VOLTABSORB": {
+    "id": 10,
+    "key": "VOLTABSORB",
+    "name": "Volt Absorb",
+    "desc": "Restores 25% Max HP if hit by an Electric move."
+  },
+  "WATERABSORB": {
+    "id": 11,
+    "key": "WATERABSORB",
+    "name": "Water Absorb",
+    "desc": "Restores 25% Max HP if hit by a Water move."
+  },
+  "OBLIVIOUS": {
+    "id": 12,
+    "key": "OBLIVIOUS",
+    "name": "Oblivious",
+    "desc": "Immune to Compromising effects, except Status."
+  },
+  "CLOUDNINE": {
+    "id": 13,
+    "key": "CLOUDNINE",
+    "name": "Cloud Nine",
+    "desc": "Sets Eye of the Storm for five turns on entry."
+  },
+  "COMPOUNDEYES": {
+    "id": 14,
+    "key": "COMPOUNDEYES",
+    "name": "Compound Eyes",
+    "desc": "Maxes Accuracy on entry; slightly lowers each turn."
+  },
+  "ANXIETY": {
+    "id": 15,
+    "key": "ANXIETY",
+    "name": "Anxiety",
+    "desc": "Slightly raises Sp. Def and lowers Def each turn."
+  },
+  "COLORCHANGE": {
+    "id": 16,
+    "key": "COLORCHANGE",
+    "name": "Color Change",
+    "desc": "Becomes types it's hit by. Non-STAB moves deal x1.33 dmg."
+  },
+  "IMMUNITY": {
+    "id": 17,
+    "key": "IMMUNITY",
+    "name": "Immunity",
+    "desc": "Immune to Poison-type moves; cannot be poisoned."
+  },
+  "FLASHFIRE": {
+    "id": 18,
+    "key": "FLASHFIRE",
+    "name": "Flash Fire",
+    "desc": "Immune to crits/Fire moves, which empower its own x1.5."
+  },
+  "SHIELDDUST": {
+    "id": 19,
+    "key": "SHIELDDUST",
+    "name": "Shield Dust",
+    "desc": "Its Powder moves slightly raise Sp. Def. Immune to Powder."
+  },
+  "OWNTEMPO": {
+    "id": 20,
+    "key": "OWNTEMPO",
+    "name": "Own Tempo",
+    "desc": "Can't be confused. x1.1 dmg using the same move in a row."
+  },
+  "POWEROFALCHEMY": {
+    "id": 21,
+    "key": "POWEROFALCHEMY",
+    "name": "Power of Alchemy",
+    "desc": "Copies the last KO'd enemy's Ability, then heals."
+  },
+  "INTIMIDATE": {
+    "id": 22,
+    "key": "INTIMIDATE",
+    "name": "Intimidate",
+    "desc": "Lowers enemies' Atk upon entry."
+  },
+  "VIRTUOUS": {
+    "id": 23,
+    "key": "VIRTUOUS",
+    "name": "Virtuous",
+    "desc": "Can use Paragon moves freely and with x1.25 dmg."
+  },
+  "ROUGHSKIN": {
+    "id": 24,
+    "key": "ROUGHSKIN",
+    "name": "Rough Skin",
+    "desc": "Attackers take 1/8th HP damage on contact."
+  },
+  "WONDERGUARD": {
+    "id": 25,
+    "key": "WONDERGUARD",
+    "name": "Wonder Guard",
+    "desc": "Immune to moves 60 power or less."
+  },
+  "LEVITATE": {
+    "id": 26,
+    "key": "LEVITATE",
+    "name": "Levitate",
+    "desc": "Becomes airborne and immune to Ground-type moves."
+  },
+  "EFFECTSPORE": {
+    "id": 27,
+    "key": "EFFECTSPORE",
+    "name": "Effect Spore",
+    "desc": "30% to Paralyze, Poison, or Sleep an attacker dealing damage."
+  },
+  "SYNCHRONIZE": {
+    "id": 28,
+    "key": "SYNCHRONIZE",
+    "name": "Synchronize",
+    "desc": "Synchronizes Compromising effects back onto enemies."
+  },
+  "GUARDIANEULOGY": {
+    "id": 29,
+    "key": "GUARDIANEULOGY",
+    "name": "Guardian Eulogy",
+    "desc": "Attacks apply or reduce the count of Perish Song."
+  },
+  "NATURALCURE": {
+    "id": 30,
+    "key": "NATURALCURE",
+    "name": "Natural Cure",
+    "desc": "If switching, cures its own status and its next ally's."
+  },
+  "LIGHTNINGROD": {
+    "id": 31,
+    "key": "LIGHTNINGROD",
+    "name": "Lightning Rod",
+    "desc": "Attracts Electric moves, which raise its Atk and Sp. Atk."
+  },
+  "SERENEGRACE": {
+    "id": 32,
+    "key": "SERENEGRACE",
+    "name": "Serene Grace",
+    "desc": "Double chance of secondary effects occurring."
+  },
+  "SWIFTSWIM": {
+    "id": 33,
+    "key": "SWIFTSWIM",
+    "name": "Swift Swim",
+    "desc": "In Rain, x1.5 Speed; or x2 if above 50% HP."
+  },
+  "CHLOROPHYLL": {
+    "id": 34,
+    "key": "CHLOROPHYLL",
+    "name": "Chlorophyll",
+    "desc": "In Sun, x1.5 Speed; or x2 if above 50% HP."
+  },
+  "BIOLUMINESCENCE": {
+    "id": 35,
+    "key": "BIOLUMINESCENCE",
+    "name": "Bioluminescence",
+    "desc": "30% chance ANY non-contact slightly lowers enemy Acc."
+  },
+  "TRACE": {
+    "id": 36,
+    "key": "TRACE",
+    "name": "Trace",
+    "desc": "Copies the opponent's Ability on entry."
+  },
+  "GUARDIANGRACE": {
+    "id": 37,
+    "key": "GUARDIANGRACE",
+    "name": "Guardian Grace",
+    "desc": "Restores full HP each turn if below 1/3 Max HP; 1/16th HP otherwise."
+  },
+  "POISONPOINT": {
+    "id": 38,
+    "key": "POISONPOINT",
+    "name": "Poison Point",
+    "desc": "30% chance ANY contact poisons the opponent."
+  },
+  "INNERFOCUS": {
+    "id": 39,
+    "key": "INNERFOCUS",
+    "name": "Inner Focus",
+    "desc": "x1.1 Acc, can't flinch, heals 1/3 HP when recharging."
+  },
+  "MAGMAMAIL": {
+    "id": 40,
+    "key": "MAGMAMAIL",
+    "name": "Magma Mail",
+    "desc": "Attracts Ice moves, which raise its Atk and Sp. Atk."
+  },
+  "KEELHAULER": {
+    "id": 41,
+    "key": "KEELHAULER",
+    "name": "Keelhauler",
+    "desc": "Deals x1.33 dmg and heals 1/16 Max HP in Rain."
+  },
+  "MAGNETICFIELD": {
+    "id": 42,
+    "key": "MAGNETICFIELD",
+    "name": "Magnetic Field",
+    "desc": "Creates Gravity for five turns on entry."
+  },
+  "SOUNDPROOF": {
+    "id": 43,
+    "key": "SOUNDPROOF",
+    "name": "Soundproof",
+    "desc": "Immune to sound-based moves."
+  },
+  "CORROSION": {
+    "id": 44,
+    "key": "CORROSION",
+    "name": "Corrosion",
+    "desc": "Can Poison and damage Poison- and Steel-types with Poison moves."
+  },
+  "SANDSTREAM": {
+    "id": 45,
+    "key": "SANDSTREAM",
+    "name": "Sand Stream",
+    "desc": "Summons a Sandstorm for five turns on entry."
+  },
+  "PRESSURE": {
+    "id": 46,
+    "key": "PRESSURE",
+    "name": "Pressure",
+    "desc": "Attacking this Pokémon costs two additional PP."
+  },
+  "THICKFAT": {
+    "id": 47,
+    "key": "THICKFAT",
+    "name": "Thick Fat",
+    "desc": "Damage from Fire and Ice moves is halved."
+  },
+  "EARLYBIRD": {
+    "id": 48,
+    "key": "EARLYBIRD",
+    "name": "Early Bird",
+    "desc": "Wakes up in 1 turn and with +1 Speed. Eggs hatch fast."
+  },
+  "FLAMEWREATHED": {
+    "id": 49,
+    "key": "FLAMEWREATHED",
+    "name": "Flamewreathed",
+    "desc": "30% chance ANY contact burns the opponent. Eggs hatch fast."
+  },
+  "GUARDIANANEUPLOID": {
+    "id": 50,
+    "key": "GUARDIANANEUPLOID",
+    "name": "Guardian Aneuploid",
+    "desc": "Multi-hit moves hit an extra time. Its attacks extend the duration of allied active effects by 2."
+  },
+  "EAGLEEYE": {
+    "id": 51,
+    "key": "EAGLEEYE",
+    "name": "Eagle Eye",
+    "desc": "Gains x1.33 Acc and Acc can't be lowered."
+  },
+  "HYPERCUTTER": {
+    "id": 52,
+    "key": "HYPERCUTTER",
+    "name": "Hyper Cutter",
+    "desc": "Atk/Def can't be lowered. Doubles target's Atk/Def drops."
+  },
+  "GUARDIANDIMENSION": {
+    "id": 53,
+    "key": "GUARDIANDIMENSION",
+    "name": "Guardian Dimension",
+    "desc": "KO's mitigate recharge turns. Applies Pressure."
+  },
+  "TRUANT": {
+    "id": 54,
+    "key": "TRUANT",
+    "name": "Truant",
+    "desc": "Skips every other turn to heal 1/3rd Max HP."
+  },
+  "HUSTLE": {
+    "id": 55,
+    "key": "HUSTLE",
+    "name": "Hustle",
+    "desc": "Physical moves deal x1.5 dmg but have x0.8 Acc."
+  },
+  "RUINATION": {
+    "id": 56,
+    "key": "RUINATION",
+    "name": "Ruination",
+    "desc": "Lowers the opponent's highest stat x0.8."
+  },
+  "DRACONIANSURGE": {
+    "id": 57,
+    "key": "DRACONIANSURGE",
+    "name": "Draconian Surge",
+    "desc": "Summons Ruthless Terrain for 5 turns on entry."
+  },
+  "HUNGERSWITCH": {
+    "id": 58,
+    "key": "HUNGERSWITCH",
+    "name": "Hunger Switch",
+    "desc": "Has x1.5 Speed or restores 1/8th Max HP based on form."
+  },
+  "FORECAST": {
+    "id": 59,
+    "key": "FORECAST",
+    "name": "Forecast",
+    "desc": "Weather turns do not expire. Changes form in weather."
+  },
+  "ELDRITCH": {
+    "id": 60,
+    "key": "ELDRITCH",
+    "name": "Eldritch",
+    "desc": "Taunts enemies for 2 turns on entry; takes x2 Ghost dmg."
+  },
+  "SHEDSKIN": {
+    "id": 61,
+    "key": "SHEDSKIN",
+    "name": "Shed Skin",
+    "desc": "50% chance to heal Compromising effects each turn."
+  },
+  "GUTS": {
+    "id": 62,
+    "key": "GUTS",
+    "name": "Guts",
+    "desc": "x1.5 Atk if Compromised. Ignores Burn's Atk drop."
+  },
+  "AURAGUARD": {
+    "id": 63,
+    "key": "AURAGUARD",
+    "name": "Aura Guard",
+    "desc": "Takes x0.66 damage if Compromised."
+  },
+  "SLIMEBODY": {
+    "id": 64,
+    "key": "SLIMEBODY",
+    "name": "Slime Body",
+    "desc": "Immune to kicking, punching, and biting moves."
+  },
+  "CATALYSTCORE": {
+    "id": 65,
+    "key": "CATALYSTCORE",
+    "name": "Catalyst Core",
+    "desc": "Changes forms, immunities and stats each turn."
+  },
+  "WATERVEIL": {
+    "id": 66,
+    "key": "WATERVEIL",
+    "name": "Water Veil",
+    "desc": "In Rain, takes x0.66 dmg and cures Compromising effects."
+  },
+  "GUARDIANORDER": {
+    "id": 67,
+    "key": "GUARDIANORDER",
+    "name": "Guardian Order",
+    "desc": "Sets a layer of Spikes after taking damage. Finds 'Treasures' twice as fast."
+  },
+  "GUARDIANSTROBE": {
+    "id": 68,
+    "key": "GUARDIANSTROBE",
+    "name": "Guardian Strobe",
+    "desc": "While Compromised, moves heal for 1/2 damage dealt; 3/4th against other Compromised targets."
+  },
+  "HARDHEADED": {
+    "id": 69,
+    "key": "HARDHEADED",
+    "name": "Hardheaded",
+    "desc": "Takes no recoil dmg; its resisted moves raise Speed."
+  },
+  "DROUGHT": {
+    "id": 70,
+    "key": "DROUGHT",
+    "name": "Drought",
+    "desc": "Summons Sun for five turns on entry."
+  },
+  "ARENATRAP": {
+    "id": 71,
+    "key": "ARENATRAP",
+    "name": "Arena Trap",
+    "desc": "Enemies cannot flee or switch out manually."
+  },
+  "DYNAMO": {
+    "id": 72,
+    "key": "DYNAMO",
+    "name": "Dynamo",
+    "desc": "Attacks deal x1.25 dmg but cost 2 additional PP."
+  },
+  "CHAINSMOKER": {
+    "id": 73,
+    "key": "CHAINSMOKER",
+    "name": "Chain Smoker",
+    "desc": "In Smog, x1.5 Speed; or x2 if above 50% HP."
+  },
+  "PUREPOWER": {
+    "id": 74,
+    "key": "PUREPOWER",
+    "name": "Pure Power",
+    "desc": "Base Atk stat is increased x1.5 in battle."
+  },
+  "SHELLARMOR": {
+    "id": 75,
+    "key": "SHELLARMOR",
+    "name": "Shell Armor",
+    "desc": "Immune to crits, phazing, item loss, and topsy-turvy."
+  },
+  "AIRLOCK": {
+    "id": 76,
+    "key": "AIRLOCK",
+    "name": "Air Lock",
+    "desc": "Cancels all weather effects in battle."
+  },
+  "RESCUETEAM": {
+    "id": 77,
+    "key": "RESCUETEAM",
+    "name": "Rescue Team",
+    "desc": "Heals its ally 1/8th Max HP each turn."
+  },
+  "MOTORDRIVE": {
+    "id": 78,
+    "key": "MOTORDRIVE",
+    "name": "Motor Drive",
+    "desc": "ANY Electric move deals x0.8 dmg and raises Speed."
+  },
+  "RIVALRY": {
+    "id": 79,
+    "key": "RIVALRY",
+    "name": "Rivalry",
+    "desc": "If same gender, deals x1.25 dmg; if not, takes x0.8."
+  },
+  "RESOLUTE": {
+    "id": 80,
+    "key": "RESOLUTE",
+    "name": "Resolute",
+    "desc": "Takes x0.8 damage from contact moves."
+  },
+  "SNOWCLOAK": {
+    "id": 81,
+    "key": "SNOWCLOAK",
+    "name": "Snow Cloak",
+    "desc": "Takes x0.66 damage and gradually heals in Hail."
+  },
+  "GLUTTONY": {
+    "id": 82,
+    "key": "GLUTTONY",
+    "name": "Gluttony",
+    "desc": "Eats pinch Berries at 1/2 HP. Gradually heals after eating."
+  },
+  "FEVERPITCH": {
+    "id": 83,
+    "key": "FEVERPITCH",
+    "name": "Fever Pitch",
+    "desc": "Steals Crit Ratio from enemies using status moves."
+  },
+  "UNBURDEN": {
+    "id": 84,
+    "key": "UNBURDEN",
+    "name": "Unburden",
+    "desc": "Using or losing its held item doubles its Speed."
+  },
+  "HEATPROOF": {
+    "id": 85,
+    "key": "HEATPROOF",
+    "name": "Heatproof",
+    "desc": "Immune to Fire-type moves; cannot be burned."
+  },
+  "SIMPLE": {
+    "id": 86,
+    "key": "SIMPLE",
+    "name": "Simple",
+    "desc": "Any stat changes gain/lose 1 extra stage."
+  },
+  "DESCENDED": {
+    "id": 87,
+    "key": "DESCENDED",
+    "name": "Descended",
+    "desc": "Fairy moves deal x1.5 dmg; deals 1/12th dmg on entry."
+  },
+  "DOWNLOAD": {
+    "id": 88,
+    "key": "DOWNLOAD",
+    "name": "Download",
+    "desc": "Gives +1 Atk or Sp. Atk based on enemies' defenses."
+  },
+  "IRONFIST": {
+    "id": 89,
+    "key": "IRONFIST",
+    "name": "Iron Fist",
+    "desc": "Its punching moves deal x1.25 damage."
+  },
+  "POISONHEAL": {
+    "id": 90,
+    "key": "POISONHEAL",
+    "name": "Poison Heal",
+    "desc": "Reverses the effects of Poisoning."
+  },
+  "WELLADAPTED": {
+    "id": 91,
+    "key": "WELLADAPTED",
+    "name": "Well-Adapted",
+    "desc": "Its STABs deal x2 dmg, but non-STABs deal x0.8."
+  },
+  "SKILLLINK": {
+    "id": 92,
+    "key": "SKILLLINK",
+    "name": "Skill Link",
+    "desc": "Multi-hit moves hit the max number of times."
+  },
+  "GOURMET": {
+    "id": 93,
+    "key": "GOURMET",
+    "name": "Gourmet",
+    "desc": "Restores 1/3rd HP when enemies use healing moves."
+  },
+  "SOLARPOWER": {
+    "id": 94,
+    "key": "SOLARPOWER",
+    "name": "Solar Power",
+    "desc": "Deals x1.5 damage in Sun."
+  },
+  "FLEETOFFOOT": {
+    "id": 95,
+    "key": "FLEETOFFOOT",
+    "name": "Fleet of Foot",
+    "desc": "x2 Speed if Compromised/Trapped. Can't be Trapped."
+  },
+  "ICESCALES": {
+    "id": 96,
+    "key": "ICESCALES",
+    "name": "Ice Scales",
+    "desc": "Takes x1.1 from physical moves; x0.5 from special."
+  },
+  "SNIPER": {
+    "id": 97,
+    "key": "SNIPER",
+    "name": "Sniper",
+    "desc": "Its critical hits deal x1.5 damage."
+  },
+  "MAGICGUARD": {
+    "id": 98,
+    "key": "MAGICGUARD",
+    "name": "Magic Guard",
+    "desc": "Immune to residual damage."
+  },
+  "NOGUARD": {
+    "id": 99,
+    "key": "NOGUARD",
+    "name": "No Guard",
+    "desc": "Moves used by or against this Pokémon always hit."
+  },
+  "TECHNICIAN": {
+    "id": 101,
+    "key": "TECHNICIAN",
+    "name": "Technician",
+    "desc": "Moves with 60 power or less deal x1.5 damage."
+  },
+  "SUNSCREEN": {
+    "id": 102,
+    "key": "SUNSCREEN",
+    "name": "Sun Screen",
+    "desc": "In Sun, takes x0.66 dmg and cures Compromising effects."
+  },
+  "KLUTZ": {
+    "id": 103,
+    "key": "KLUTZ",
+    "name": "Klutz",
+    "desc": "Negates its item's effects on the first turn in battle."
+  },
+  "MOLDBREAKER": {
+    "id": 104,
+    "key": "MOLDBREAKER",
+    "name": "Mold Breaker",
+    "desc": "Can't be suppressed. Ignores opposing Abilities."
+  },
+  "SUPERLUCK": {
+    "id": 105,
+    "key": "SUPERLUCK",
+    "name": "Super Luck",
+    "desc": "Raises Critical Hit ratio. Cannot be critically hit."
+  },
+  "AFTERMATH": {
+    "id": 106,
+    "key": "AFTERMATH",
+    "name": "Aftermath",
+    "desc": "Damages for 1/4th of an attacker's HP when KO'd."
+  },
+  "MATINGCALL": {
+    "id": 107,
+    "key": "MATINGCALL",
+    "name": "Mating Call",
+    "desc": "Creates a Pheromone Blur for five turns on entry."
+  },
+  "NANOTECH": {
+    "id": 108,
+    "key": "NANOTECH",
+    "name": "Nanotech",
+    "desc": "Changing forms heals 1/6th HP or raises Crit Ratio."
+  },
+  "UNAWARE": {
+    "id": 109,
+    "key": "UNAWARE",
+    "name": "Unaware",
+    "desc": "Ignores enemies' stat changes, except Crit Ratio."
+  },
+  "TINTEDLENS": {
+    "id": 110,
+    "key": "TINTEDLENS",
+    "name": "Tinted Lens",
+    "desc": "Its resisted moves deal double damage."
+  },
+  "FILTER": {
+    "id": 111,
+    "key": "FILTER",
+    "name": "Filter",
+    "desc": "Takes x0.75 damage from supereffective attacks."
+  },
+  "GUARDIANCORE": {
+    "id": 112,
+    "key": "GUARDIANCORE",
+    "name": "Guardian Core",
+    "desc": "Slightly raises Speed and Accuracy every turn. Prevents Enchantment, phazing, and stat loss."
+  },
+  "GUARDIANGLASS": {
+    "id": 113,
+    "key": "GUARDIANGLASS",
+    "name": "Guardian Glass",
+    "desc": "Bounces back status moves. Damages for 1/8th of an attacker's HP when damaged."
+  },
+  "STORMDRAIN": {
+    "id": 114,
+    "key": "STORMDRAIN",
+    "name": "Storm Drain",
+    "desc": "Attracts Water moves, which raise its Atk and Sp. Atk."
+  },
+  "BOGGEDDOWN": {
+    "id": 115,
+    "key": "BOGGEDDOWN",
+    "name": "Bogged Down",
+    "desc": "In Smog, takes x0.66 damage; x0.5 from Compromised foes."
+  },
+  "SOLIDROCK": {
+    "id": 116,
+    "key": "SOLIDROCK",
+    "name": "Solid Rock",
+    "desc": "Enemy supereffective attacks deal x0.66 dmg but lower Speed."
+  },
+  "SNOWWARNING": {
+    "id": 117,
+    "key": "SNOWWARNING",
+    "name": "Snow Warning",
+    "desc": "Summons Hail for 5 turns on entry."
+  },
+  "HONEYGATHER": {
+    "id": 118,
+    "key": "HONEYGATHER",
+    "name": "Honey Gather",
+    "desc": "Restores 1/8th max HP each turn it takes no damage."
+  },
+  "SCOUT": {
+    "id": 119,
+    "key": "SCOUT",
+    "name": "Scout",
+    "desc": "Scouts items, abilities, and super-effective moves."
+  },
+  "RECKLESS": {
+    "id": 120,
+    "key": "RECKLESS",
+    "name": "Reckless",
+    "desc": "Deals any recoil damage to the opponent as well."
+  },
+  "MULTITYPE": {
+    "id": 121,
+    "key": "MULTITYPE",
+    "name": "Multitype",
+    "desc": "Matches the type of its held Plate."
+  },
+  "FOOLSGOLD": {
+    "id": 122,
+    "key": "FOOLSGOLD",
+    "name": "Fool's Gold",
+    "desc": "Yields treasure when hit; breaks on the third one!"
+  },
+  "BADDREAMS": {
+    "id": 123,
+    "key": "BADDREAMS",
+    "name": "Bad Dreams",
+    "desc": "Sleeping or Witching Hour enemies take 1/8 Max HP damage."
+  },
+  "PICKPOCKET": {
+    "id": 124,
+    "key": "PICKPOCKET",
+    "name": "Pickpocket",
+    "desc": "Steals items and gains +2 Speed after being hit."
+  },
+  "BRUTEFORCE": {
+    "id": 125,
+    "key": "BRUTEFORCE",
+    "name": "Brute Force",
+    "desc": "Removes moves' secondary effects to deal x1.33 dmg."
+  },
+  "CONTRARY": {
+    "id": 126,
+    "key": "CONTRARY",
+    "name": "Contrary",
+    "desc": "Inverts this Pokémon's stat raises and lowerings."
+  },
+  "UNNERVE": {
+    "id": 127,
+    "key": "UNNERVE",
+    "name": "Unnerve",
+    "desc": "Enemies cannot use Consumable or healing items."
+  },
+  "DEFIANT": {
+    "id": 128,
+    "key": "DEFIANT",
+    "name": "Defiant",
+    "desc": "Sharply raises Atk if a foe lowers its stats."
+  },
+  "DEFEATIST": {
+    "id": 129,
+    "key": "DEFEATIST",
+    "name": "Defeatist",
+    "desc": "Deals x0.66 damage when below half HP."
+  },
+  "CURSEDBODY": {
+    "id": 130,
+    "key": "CURSEDBODY",
+    "name": "Cursed Body",
+    "desc": "30% chance to curse an opponent making contact."
+  },
+  "HEALER": {
+    "id": 131,
+    "key": "HEALER",
+    "name": "Healer",
+    "desc": "Status-curing moves heal 1/2 missing HP. Immune to Heal Block."
+  },
+  "FRIENDGUARD": {
+    "id": 132,
+    "key": "FRIENDGUARD",
+    "name": "Friend Guard",
+    "desc": "Allies take x0.5 damage from attacks."
+  },
+  "WEAKARMOR": {
+    "id": 133,
+    "key": "WEAKARMOR",
+    "name": "Weak Armor",
+    "desc": "Taking Physical hits raise Speed, but slightly lower Def."
+  },
+  "GUARDIANBOND": {
+    "id": 134,
+    "key": "GUARDIANBOND",
+    "name": "Guardian Bond",
+    "desc": "Hits single targets thrice, but each move has x0.5 power."
+  },
+  "STEAMVENT": {
+    "id": 135,
+    "key": "STEAMVENT",
+    "name": "Steam Vent",
+    "desc": "Sharply raises Speed when taking non-Contact moves."
+  },
+  "MULTISCALE": {
+    "id": 136,
+    "key": "MULTISCALE",
+    "name": "Multiscale",
+    "desc": "If at full HP, direct damage is halved."
+  },
+  "TOXICBOOST": {
+    "id": 137,
+    "key": "TOXICBOOST",
+    "name": "Toxic Boost",
+    "desc": "Ignores Poison, dealing x1.5 damage instead."
+  },
+  "FLUFFY": {
+    "id": 138,
+    "key": "FLUFFY",
+    "name": "Fluffy",
+    "desc": "Takes x0.5 contact damage but x2 Fire and burn damage."
+  },
+  "HARVEST": {
+    "id": 139,
+    "key": "HARVEST",
+    "name": "Harvest",
+    "desc": "50% to recycle Berries each turn; 100% in Sun/Rain."
+  },
+  "SIXTHSENSE": {
+    "id": 140,
+    "key": "SIXTHSENSE",
+    "name": "Sixth Sense",
+    "desc": "Takes x0.8 damage from non-contact moves."
+  },
+  "EMERGENCYEXIT": {
+    "id": 141,
+    "key": "EMERGENCYEXIT",
+    "name": "Emergency Exit",
+    "desc": "Switches at the end of a turn it fell below 1/2 HP."
+  },
+  "OVERCOAT": {
+    "id": 142,
+    "key": "OVERCOAT",
+    "name": "Overcoat",
+    "desc": "Immune to weather, contact, and secondary effects."
+  },
+  "CALCULATED": {
+    "id": 143,
+    "key": "CALCULATED",
+    "name": "Calculated",
+    "desc": "Takes x0.5 dmg if switched in directly, ignoring hazards."
+  },
+  "REGENERATOR": {
+    "id": 144,
+    "key": "REGENERATOR",
+    "name": "Regenerator",
+    "desc": "When switching out, heal 1/4 HP or 1/3 if below 50% HP."
+  },
+  "STALWARTBEAK": {
+    "id": 145,
+    "key": "STALWARTBEAK",
+    "name": "Stalwart Beak",
+    "desc": "70% chance its contact moves slightly raise Def."
+  },
+  "SANDRUSH": {
+    "id": 146,
+    "key": "SANDRUSH",
+    "name": "Sand Rush",
+    "desc": "In Sand, x1.5 Speed; or x2 if above 50% HP."
+  },
+  "HARMONIOUS": {
+    "id": 147,
+    "key": "HARMONIOUS",
+    "name": "Harmonious",
+    "desc": "Phazard moves and procs deal x1.5 damage."
+  },
+  "ANALYTIC": {
+    "id": 148,
+    "key": "ANALYTIC",
+    "name": "Analytic",
+    "desc": "Deals x1.33 damage when moving after its target."
+  },
+  "ILLUSION": {
+    "id": 149,
+    "key": "ILLUSION",
+    "name": "Illusion",
+    "desc": "Appears as the last party member until damaged."
+  },
+  "IMPOSTER": {
+    "id": 150,
+    "key": "IMPOSTER",
+    "name": "Imposter",
+    "desc": "Transforms into its opponent (except for its HP) on entry."
+  },
+  "INFILTRATOR": {
+    "id": 151,
+    "key": "INFILTRATOR",
+    "name": "Infiltrator",
+    "desc": "Ignores Protection, Substitutes and Screens."
+  },
+  "MUMMY": {
+    "id": 152,
+    "key": "MUMMY",
+    "name": "Mummy",
+    "desc": "Dealing damage Mummifies targets."
+  },
+  "MOXIE": {
+    "id": 153,
+    "key": "MOXIE",
+    "name": "Moxie",
+    "desc": "KO'ing a Pokémon raises its Atk stat."
+  },
+  "JUSTIFIED": {
+    "id": 154,
+    "key": "JUSTIFIED",
+    "name": "Justified",
+    "desc": "Attracts Dark moves, which raise its Atk and Sp. Atk."
+  },
+  "FIDGETY": {
+    "id": 155,
+    "key": "FIDGETY",
+    "name": "Fidgety",
+    "desc": "Doubles Speed when below 1/3rd Max HP."
+  },
+  "MAGICBOUNCE": {
+    "id": 156,
+    "key": "MAGICBOUNCE",
+    "name": "Magic Bounce",
+    "desc": "Reflects status moves back at their user."
+  },
+  "SAPSIPPER": {
+    "id": 157,
+    "key": "SAPSIPPER",
+    "name": "Sap Sipper",
+    "desc": "Restores 25% Max HP if hit by a Grass move."
+  },
+  "PRANKSTER": {
+    "id": 158,
+    "key": "PRANKSTER",
+    "name": "Prankster",
+    "desc": "Status moves have +1 Priority. Fails against Darks."
+  },
+  "SANDFORCE": {
+    "id": 159,
+    "key": "SANDFORCE",
+    "name": "Sand Force",
+    "desc": "Deals x1.5 damage in a Sandstorm."
+  },
+  "IRONBRIARY": {
+    "id": 160,
+    "key": "IRONBRIARY",
+    "name": "Iron Briary",
+    "desc": "50% chance ANY dmg drives stakes into the enemy team."
+  },
+  "ZENMODE": {
+    "id": 161,
+    "key": "ZENMODE",
+    "name": "Zen Mode",
+    "desc": "Changes into its Zen Mode if at half HP or below."
+  },
+  "VICTORYSTAR": {
+    "id": 162,
+    "key": "VICTORYSTAR",
+    "name": "Victory Star",
+    "desc": "Increases its and allies' Dmg and Accuracy x1.1."
+  },
+  "TURBOBLAZE": {
+    "id": 163,
+    "key": "TURBOBLAZE",
+    "name": "Turboblaze",
+    "desc": "Gains Mold Breaker, Pressure, and Dragon-type STAB."
+  },
+  "TERAVOLT": {
+    "id": 164,
+    "key": "TERAVOLT",
+    "name": "Teravolt",
+    "desc": "Gains Mold Breaker, Pressure, and Dragon-type STAB."
+  },
+  "ZEROTOHERO": {
+    "id": 165,
+    "key": "ZEROTOHERO",
+    "name": "Zero to Hero",
+    "desc": "Changes to Hero Form after switching out."
+  },
+  "ALTERRAIN": {
+    "id": 166,
+    "key": "ALTERRAIN",
+    "name": "Alterrain",
+    "desc": "Terrain turns don't expire. Gains a Terrain-based STAB and resist."
+  },
+  "DEEPBREATH": {
+    "id": 167,
+    "key": "DEEPBREATH",
+    "name": "Deep Breath",
+    "desc": "Breath moves deal x1.1 dmg, heal 1/3 missing HP, cure status."
+  },
+  "BULLETPROOF": {
+    "id": 168,
+    "key": "BULLETPROOF",
+    "name": "Bulletproof",
+    "desc": "Immunity to ball, bomb, pulse, and explosion moves."
+  },
+  "CHEEKPOUCH": {
+    "id": 169,
+    "key": "CHEEKPOUCH",
+    "name": "Cheek Pouch",
+    "desc": "Eating a held Berry restores 1/2 Max HP."
+  },
+  "COMPETITIVE": {
+    "id": 170,
+    "key": "COMPETITIVE",
+    "name": "Competitive",
+    "desc": "Sharply raises Sp. Atk if a foe lowers its stats."
+  },
+  "DARKAURA": {
+    "id": 171,
+    "key": "DARKAURA",
+    "name": "Dark Aura",
+    "desc": "Dark-type moves deal x4/3 damage from any combatant."
+  },
+  "FAIRYAURA": {
+    "id": 172,
+    "key": "FAIRYAURA",
+    "name": "Fairy Aura",
+    "desc": "Fairy-type moves deal x4/3 damage from any combatant."
+  },
+  "SYMBIOTIC": {
+    "id": 173,
+    "key": "SYMBIOTIC",
+    "name": "Symbiotic",
+    "desc": "Grass moves deal x1.5 damage; immune to Powder moves."
+  },
+  "FURCOAT": {
+    "id": 174,
+    "key": "FURCOAT",
+    "name": "Fur Coat",
+    "desc": "Takes x1.1 from special moves; x0.5 from physical."
+  },
+  "GALEFORCE": {
+    "id": 175,
+    "key": "GALEFORCE",
+    "name": "Gale Force",
+    "desc": "+1 priority on Flying/Wind moves if above 1/2 HP."
+  },
+  "GOOEY": {
+    "id": 176,
+    "key": "GOOEY",
+    "name": "Gooey",
+    "desc": "Drastically lowers the Speed of any attacker on contact."
+  },
+  "GRAVEYARDSHIFT": {
+    "id": 177,
+    "key": "GRAVEYARDSHIFT",
+    "name": "Graveyard Shift",
+    "desc": "Takes x0.5 non-contact damage but x2 Fairy damage."
+  },
+  "MAGICIAN": {
+    "id": 178,
+    "key": "MAGICIAN",
+    "name": "Magician",
+    "desc": "Attacks steal items; deals x1.5 dmg to itemless targets."
+  },
+  "MEGALAUNCHER": {
+    "id": 179,
+    "key": "MEGALAUNCHER",
+    "name": "Mega Launcher",
+    "desc": "Deals x1.33 damage with Pulse, Beam, and Aura moves."
+  },
+  "PARENTALBOND": {
+    "id": 180,
+    "key": "PARENTALBOND",
+    "name": "Parental Bond",
+    "desc": "Hits single targets twice. 2nd hit has x0.25 power."
+  },
+  "BEWITCHING": {
+    "id": 181,
+    "key": "BEWITCHING",
+    "name": "Bewitching",
+    "desc": "30% chance ANY non-contact enchants the opponent."
+  },
+  "PROTEAN": {
+    "id": 182,
+    "key": "PROTEAN",
+    "name": "Protean",
+    "desc": "Changes type to moves it uses."
+  },
+  "WANDERLUST": {
+    "id": 183,
+    "key": "WANDERLUST",
+    "name": "Wanderlust",
+    "desc": "Sets Wonder Room for five turns on entry."
+  },
+  "STANCECHANGE": {
+    "id": 184,
+    "key": "STANCECHANGE",
+    "name": "Stance Change",
+    "desc": "Depending on the move it uses, it switches Formes."
+  },
+  "STRONGJAW": {
+    "id": 185,
+    "key": "STRONGJAW",
+    "name": "Strong Jaw",
+    "desc": "Deals x1.5 damage with Biting moves."
+  },
+  "FLIPSIDE": {
+    "id": 186,
+    "key": "FLIPSIDE",
+    "name": "Flip Side",
+    "desc": "Swaps offensive/defensive stats; slightly raises best stat."
+  },
+  "CARETAKER": {
+    "id": 187,
+    "key": "CARETAKER",
+    "name": "Caretaker",
+    "desc": "Heals the next ally switched in by 1/4th Max HP. Eggs hatch fast."
+  },
+  "TOUGHCLAWS": {
+    "id": 188,
+    "key": "TOUGHCLAWS",
+    "name": "Tough Claws",
+    "desc": "User deals x1.25 damage with contact moves."
+  },
+  "PRIMORDIALSEA": {
+    "id": 189,
+    "key": "PRIMORDIALSEA",
+    "name": "Primordial Sea",
+    "desc": "Summons insurmountably heavy rain."
+  },
+  "DESOLATELAND": {
+    "id": 190,
+    "key": "DESOLATELAND",
+    "name": "Desolate Land",
+    "desc": "Summons insurmountably harsh sunlight."
+  },
+  "DELTASTREAM": {
+    "id": 191,
+    "key": "DELTASTREAM",
+    "name": "Delta Stream",
+    "desc": "Summons a powerful etherious air current."
+  },
+  "AMPLIFIER": {
+    "id": 192,
+    "key": "AMPLIFIER",
+    "name": "Amplifier",
+    "desc": "Sound moves deal x1.5 dmg. Resists sound moves."
+  },
+  "BEASTBOOST": {
+    "id": 193,
+    "key": "BEASTBOOST",
+    "name": "Beast Boost",
+    "desc": "KO'ing any Pokémon raises its highest stat."
+  },
+  "BERSERK": {
+    "id": 194,
+    "key": "BERSERK",
+    "name": "Berserk",
+    "desc": "Raises Atk/Sp. Atk when its HP is damaged to below half."
+  },
+  "COMATOSE": {
+    "id": 195,
+    "key": "COMATOSE",
+    "name": "Comatose",
+    "desc": "Treated as asleep, but can attack normally."
+  },
+  "GUARDIANSUMMIT": {
+    "id": 196,
+    "key": "GUARDIANSUMMIT",
+    "name": "Guardian Summit",
+    "desc": "Sets Stealth Rock on entry. Heals its ally 1/8th Max HP each turn."
+  },
+  "GUARDIANMASK": {
+    "id": 197,
+    "key": "GUARDIANMASK",
+    "name": "Guardian Mask",
+    "desc": "Gives additional STAB types; halves damage from enemy STAB."
+  },
+  "GUARDIANPASSENGER": {
+    "id": 198,
+    "key": "GUARDIANPASSENGER",
+    "name": "Guardian Passenger",
+    "desc": "Casts Future Sight on switch-in, Ancestral Aspect on switch-out."
+  },
+  "POWERSURGE": {
+    "id": 199,
+    "key": "POWERSURGE",
+    "name": "Power Surge",
+    "desc": "Summons High-Powered Terrain for 5 turns on entry."
+  },
+  "HIDDENLOCUS": {
+    "id": 200,
+    "key": "HIDDENLOCUS",
+    "name": "Hidden Locus",
+    "desc": "Base Sp. Atk stat is increased x1.5 in battle."
+  },
+  "ARTIFICER": {
+    "id": 201,
+    "key": "ARTIFICER",
+    "name": "Artificer",
+    "desc": "Debuff-only moves lay stakes per stats lowered."
+  },
+  "EQUILIBRIUM": {
+    "id": 202,
+    "key": "EQUILIBRIUM",
+    "name": "Equilibrium",
+    "desc": "Raises stats if over half HP; consumes them to heal if below."
+  },
+  "BLACKMIRROR": {
+    "id": 203,
+    "key": "BLACKMIRROR",
+    "name": "Black Mirror",
+    "desc": "Bounces back enemies' stat-lowering effects."
+  },
+  "VERDANTSURGE": {
+    "id": 204,
+    "key": "VERDANTSURGE",
+    "name": "Verdant Surge",
+    "desc": "Summons Verdant Terrain for 5 turns on entry."
+  },
+  "FRIGIDAIR": {
+    "id": 205,
+    "key": "FRIGIDAIR",
+    "name": "Frigid Air",
+    "desc": "30% chance ANY non-contact freezes the opponent."
+  },
+  "RAPTUROUS": {
+    "id": 206,
+    "key": "RAPTUROUS",
+    "name": "Rapturous",
+    "desc": "Sound-based moves have a 50% chance to enchant."
+  },
+  "RESOURCEFUL": {
+    "id": 207,
+    "key": "RESOURCEFUL",
+    "name": "Resourceful",
+    "desc": "Deals x1.25 and takes x0.8 dmg under any Terrain."
+  },
+  "OVERCONFIDENT": {
+    "id": 208,
+    "key": "OVERCONFIDENT",
+    "name": "Overconfident",
+    "desc": "Raises Atk, Sp. Atk, and Speed if moves miss."
+  },
+  "MISTYSURGE": {
+    "id": 209,
+    "key": "MISTYSURGE",
+    "name": "Misty Surge",
+    "desc": "Summons Misty Terrain for 5 turns on entry."
+  },
+  "MARAUDER": {
+    "id": 210,
+    "key": "MARAUDER",
+    "name": "Marauder",
+    "desc": "Hazards, Stakes, and moves that lay any are x1.5 effective."
+  },
+  "PRISMARMOR": {
+    "id": 211,
+    "key": "PRISMARMOR",
+    "name": "Prism Armor",
+    "desc": "Takes x0.66 damage from supereffective attacks."
+  },
+  "PSYCHICSURGE": {
+    "id": 212,
+    "key": "PSYCHICSURGE",
+    "name": "Psychic Surge",
+    "desc": "Summons Twisted Terrain for 5 turns on entry."
+  },
+  "ROYALMAJESTY": {
+    "id": 213,
+    "key": "ROYALMAJESTY",
+    "name": "Royal Majesty",
+    "desc": "Takes x0.5 dmg from spread moves. Immune to priority moves."
+  },
+  "CONDUIT": {
+    "id": 214,
+    "key": "CONDUIT",
+    "name": "Conduit",
+    "desc": "Steals 1/6 HP each turn from enemies with +/- crit ratio."
+  },
+  "CRESCENTWINGS": {
+    "id": 215,
+    "key": "CRESCENTWINGS",
+    "name": "Crescent Wings",
+    "desc": "Takes x0.75 dmg from attacks when above half HP."
+  },
+  "SNOWSHOES": {
+    "id": 216,
+    "key": "SNOWSHOES",
+    "name": "Snow Shoes",
+    "desc": "In Hail, x1.5 Speed; or x2 if above 50% HP."
+  },
+  "SOULHEART": {
+    "id": 217,
+    "key": "SOULHEART",
+    "name": "Soul-Heart",
+    "desc": "Raises Sp. Atk when a Pokémon faints."
+  },
+  "STAMINA": {
+    "id": 219,
+    "key": "STAMINA",
+    "name": "Stamina",
+    "desc": "Slightly raises Def and Sp. Def after being hit."
+  },
+  "STEELWORKER": {
+    "id": 220,
+    "key": "STEELWORKER",
+    "name": "Steelworker",
+    "desc": "Steel moves deal x1.5 dmg; halves enemy Steel dmg."
+  },
+  "INITIALSURGE": {
+    "id": 221,
+    "key": "INITIALSURGE",
+    "name": "Initial Surge",
+    "desc": "Doubles Speed on its first turn."
+  },
+  "TANGLINGHAIR": {
+    "id": 222,
+    "key": "TANGLINGHAIR",
+    "name": "Tangling Hair",
+    "desc": "Its contact moves lower the target's Speed."
+  },
+  "TRIAGE": {
+    "id": 223,
+    "key": "TRIAGE",
+    "name": "Triage",
+    "desc": "Gains +2 priority on its HP-restoring moves. Eggs hatch fast."
+  },
+  "WATERBUBBLE": {
+    "id": 224,
+    "key": "WATERBUBBLE",
+    "name": "Water Bubble",
+    "desc": "Doubles Water and halves Fire dmg. Can't be burned."
+  },
+  "GLOSSYSHEEN": {
+    "id": 225,
+    "key": "GLOSSYSHEEN",
+    "name": "Glossy Sheen",
+    "desc": "Stat-boosting moves deal x1.25 dmg."
+  },
+  "GUARDIANCHALLENGE": {
+    "id": 226,
+    "key": "GUARDIANCHALLENGE",
+    "name": "Guardian Challenge",
+    "desc": "Applies Mold Breaker. Doubles Fighting and halves Psychic damage. Crits lower targets' Speed and Accuracy."
+  },
+  "SCHOOLING": {
+    "id": 227,
+    "key": "SCHOOLING",
+    "name": "Schooling",
+    "desc": "Maintains its powerful School Form if above 25% HP."
+  },
+  "RKSSYSTEM": {
+    "id": 228,
+    "key": "RKSSYSTEM",
+    "name": "RKS System",
+    "desc": "This Pokémon matches the type of its held Memory."
+  },
+  "GUARDIANGAGE": {
+    "id": 229,
+    "key": "GUARDIANGAGE",
+    "name": "Guardian Gage",
+    "desc": "Any recoil damages enemies instead, but this lowers its Speed."
+  },
+  "DISGUISED": {
+    "id": 230,
+    "key": "DISGUISED",
+    "name": "Disguised",
+    "desc": "Doubles defenses on its first turn in battle."
+  },
+  "GUARDIANMAJESTY": {
+    "id": 231,
+    "key": "GUARDIANMAJESTY",
+    "name": "Guardian Majesty",
+    "desc": "Applies Terrain Boots and Royal Majesty. Immune to PP reducing effects."
+  },
+  "NEUROFORCE": {
+    "id": 232,
+    "key": "NEUROFORCE",
+    "name": "Neuroforce",
+    "desc": "Its and allies' neutrally effective moves deal x1.25 dmg."
+  },
+  "VICIOUS": {
+    "id": 233,
+    "key": "VICIOUS",
+    "name": "Vicious",
+    "desc": "Contact moves apply Heal Block for 3 turns."
+  },
+  "BLOODSUCKER": {
+    "id": 234,
+    "key": "BLOODSUCKER",
+    "name": "Blood Sucker",
+    "desc": "Contact moves heal 1/4 dmg dealt, 1/3 if below half HP."
+  },
+  "PROSAICSURGE": {
+    "id": 235,
+    "key": "PROSAICSURGE",
+    "name": "Prosaic Surge",
+    "desc": "Summons Mundane Terrain for 5 turns on entry.\r\n236,CONTINUUM,Continuum,Turn counts expire twice as quickly.\""
+  },
+  "GORILLATACTICS": {
+    "id": 237,
+    "key": "GORILLATACTICS",
+    "name": "Gorilla Tactics",
+    "desc": "Deal x1.5 dmg but can't use the same move twice in a row."
+  },
+  "ICEBREAKER": {
+    "id": 238,
+    "key": "ICEBREAKER",
+    "name": "Icebreaker",
+    "desc": "Attacks deal x1.5 damage in Hail."
+  },
+  "BUZZKILL": {
+    "id": 239,
+    "key": "BUZZKILL",
+    "name": "Buzzkill",
+    "desc": "Attackers KO'ing the user are Hazed for 3 turns."
+  },
+  "OPPORTUNIST": {
+    "id": 240,
+    "key": "OPPORTUNIST",
+    "name": "Opportunist",
+    "desc": "Moves with 60 power or less have +1 priority."
+  },
+  "VAINGLORY": {
+    "id": 241,
+    "key": "VAINGLORY",
+    "name": "Vainglory",
+    "desc": "User's damaging attacks disable foes' last-used move."
+  },
+  "SHATTERPROOF": {
+    "id": 242,
+    "key": "SHATTERPROOF",
+    "name": "Shatterproof",
+    "desc": "Halves damage from Rock- and Fighting-type moves."
+  },
+  "NOXIOUSFUMES": {
+    "id": 243,
+    "key": "NOXIOUSFUMES",
+    "name": "Noxious Fumes",
+    "desc": "Creates Smog for 5 turns on entry."
+  },
+  "BADLANDS": {
+    "id": 244,
+    "key": "BADLANDS",
+    "name": "Badlands",
+    "desc": "Restores HP in a Sandstorm. Doubles Sandstorm damage."
+  },
+  "DUELIST": {
+    "id": 245,
+    "key": "DUELIST",
+    "name": "Duelist",
+    "desc": "Its Crits slightly raise Defenses and heal 1/6th HP."
+  },
+  "THICKTRUNK": {
+    "id": 246,
+    "key": "THICKTRUNK",
+    "name": "Thick Trunk",
+    "desc": "Halves damage from Ground- and Flying-type moves."
+  },
+  "RELENTLESS": {
+    "id": 247,
+    "key": "RELENTLESS",
+    "name": "Relentless",
+    "desc": "Enemies switching out take 1/6th Max HP damage."
+  },
+  "INDOMITABLE": {
+    "id": 248,
+    "key": "INDOMITABLE",
+    "name": "Indomitable",
+    "desc": "Takes x0.75 damage from moves with under 100 power."
+  },
+  "DARKSOUL": {
+    "id": 249,
+    "key": "DARKSOUL",
+    "name": "Dark Soul",
+    "desc": "Dark moves deal x1.5 dmg; halves enemy Psychic dmg."
+  },
+  "GRENADIER": {
+    "id": 250,
+    "key": "GRENADIER",
+    "name": "Grenadier",
+    "desc": "Ball, bomb, and explosion moves deal x1.25 damage."
+  },
+  "SOLOIST": {
+    "id": 251,
+    "key": "SOLOIST",
+    "name": "Soloist",
+    "desc": "25% stronger if it's your last active Pokemon."
+  },
+  "ASSASSIN": {
+    "id": 252,
+    "key": "ASSASSIN",
+    "name": "Assassin",
+    "desc": "Its Physical moves use its Sp. Atk stat."
+  },
+  "MYSTICAL": {
+    "id": 253,
+    "key": "MYSTICAL",
+    "name": "Mystical",
+    "desc": "Unchecked Acc moves deal x1.33 dmg and heal 1/2 dmg dealt."
+  },
+  "GHOULISH": {
+    "id": 254,
+    "key": "GHOULISH",
+    "name": "Ghoulish",
+    "desc": "Depletes all PP of the move that KO's this Pokémon."
+  },
+  "DRAGONFORCE": {
+    "id": 256,
+    "key": "DRAGONFORCE",
+    "name": "Dragon Force",
+    "desc": "Dragon moves deal x1.5 dmg; halves enemy Dragon dmg."
+  },
+  "SADIST": {
+    "id": 257,
+    "key": "SADIST",
+    "name": "Sadist",
+    "desc": "Always critically hits Compromised targets."
+  },
+  "SOULFURNACE": {
+    "id": 258,
+    "key": "SOULFURNACE",
+    "name": "Soul Furnace",
+    "desc": "Heals for 75% of damage dealt when KO'ing a Pokémon."
+  },
+  "FINISHINGTOUCH": {
+    "id": 259,
+    "key": "FINISHINGTOUCH",
+    "name": "Finishing Touch",
+    "desc": "Deals x2 damage to targets below half HP."
+  },
+  "REFRACTION": {
+    "id": 260,
+    "key": "REFRACTION",
+    "name": "Refraction",
+    "desc": "Attackers take 1/8th HP damage on non-contact."
+  },
+  "HALCYON": {
+    "id": 261,
+    "key": "HALCYON",
+    "name": "Halcyon",
+    "desc": "Lowers enemies' Sp. Atk on entry."
+  },
+  "TRINITYFORCE": {
+    "id": 262,
+    "key": "TRINITYFORCE",
+    "name": "Trinity Force",
+    "desc": "Reduces damage, prevents residual damage, and heals every turn."
+  },
+  "CRUCIBLE": {
+    "id": 263,
+    "key": "CRUCIBLE",
+    "name": "Crucible",
+    "desc": "Contact moves damage targets for 1/16th Max HP."
+  },
+  "RIPEN": {
+    "id": 264,
+    "key": "RIPEN",
+    "name": "Ripen",
+    "desc": "Doubles effects of Berries, Herbs, and Terrain Seeds."
+  },
+  "GUARDIANCHROMOSOME": {
+    "id": 265,
+    "key": "GUARDIANCHROMOSOME",
+    "name": "Guardian Chromosome",
+    "desc": "Immune to moves under 46 BP. Takes less damage per opponent's missing PP."
+  }
+}

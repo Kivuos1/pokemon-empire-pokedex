@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Abilities</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="back" href="./index.html">← Back</a>
+      <h1>Abilities</h1>
+      <input id="abilitySearch" type="search" placeholder="Search abilities…" />
+    </header>
+
+    <main class="detail">
+      <div class="layout2">
+        <section class="panel">
+          <h2>All Abilities</h2>
+          <div id="abilityList" class="list"></div>
+        </section>
+
+        <section class="panel">
+          <h2 id="abilityTitle">Select an ability</h2>
+          <div id="abilityDesc" class="muted"></div>
+          <div style="height:12px;"></div>
+          <h3 id="abilityMonsTitle" style="margin:0 0 10px;font-size:14px;">
+            Pokémon with this ability
+          </h3>
+          <div id="abilityMons" class="grid"></div>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="./src/abilities.js"></script>
+  </body>
+</html>
